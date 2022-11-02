@@ -10,7 +10,6 @@
 
 <body>
     <h3><?= $data['title']; ?> </h3>
-    <a href="<?= URLROOT; ?>/insanlar/create">Nieuw record</a>
 
     <table>
         <thead>

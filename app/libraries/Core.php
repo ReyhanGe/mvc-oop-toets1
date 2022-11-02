@@ -16,7 +16,7 @@ class Core
             unset($url[0]);
         }
 
-        require_once '../app/controllers/' . $this->currentController . '.php';   // echo $this->currentController;
+        require_once '../app/controllers/' . $this->currentController . '.php';
 
         $this->currentController = new $this->currentController();
 
