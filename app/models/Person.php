@@ -46,3 +46,14 @@ class Person
     }
 }
 ?>
+
+
+
+
+
+
+<td>" . htmlentities($value->name, ENT_QUOTES, 'ISO-8859-1') . "</td>
+                        <td>" . htmlentities($value->networth, ENT_QUOTES, 'ISO-8859-1') . "</td>
+                        <td>" . htmlentities($value->age, ENT_QUOTES, 'ISO-8859-1') . "</td>
+                        <td>" . htmlentities($value->MyCompany, ENT_QUOTES, 'ISO-8859-1') . "</td>
+                        
